@@ -7,8 +7,6 @@ def crito(id):
     if(id==8):
         print("La persona: "+str(id-7)+" " +"Esta esperando")
     else: print("La persona: "+str(x)+" " +"Esta esperando")
-    if(id==7):
-        print("La persona: "+str(id)+" terminó de comer y dió su palillo a la persona: "+str(x+1))
     if(id==8):
         print("La persona: "+str(id)+" terminó de comer y dió su palillo a la persona: "+str(x-8))
     else: print("La persona: "+str(id)+" terminó de comer y dió su palillo a la persona: "+str(x))
